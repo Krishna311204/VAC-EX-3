@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+<title>
+Smashing Survey
+</title>
+<style>
+	h1{position: relative; top: 10px;}
+	#table1{font-size: 20px; padding-top: 90px; padding-left: 230px;}
+	#table2{position: relative; font-size: 20px; padding-top: 90px; padding-right: 80px}
+	#submit_button {background-color: lightblue; border: none; width: 80px; height: 30px; font-weight: 700; border-radius: 30px;}
+	.vr_ln { border-left: 2px solid black; height: 670px; position: absolute; left: 50%}
+</style>
+</head>
+<body>
+<center>
+<h1>Smashing Survey</h1>
+</center>
+<hr>
+<form>
+<table align="left" id="table1">
+<tr><td>Name<font color="red">*</font></td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="text" placeholder="First name" required></td><td></td><td><input type="text" placeholder="Last name" required></td></tr><tr></tr>
+<tr><td>Email<font color="red">*</font></td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="email" placeholder="example@gmail.com" required></td><td></td><td></td></tr><tr></tr>
+<tr><td>How old are you?<font color="red">*</font></td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="radio" name="age" required>Under 18</td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="radio" name="age" required>18-24</td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="radio" name="age" required>25-34</td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="radio" name="age" required>35-44</td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="radio" name="age" required>45-54</td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="radio" name="age" required>55-64</td><td></td><td></td></tr><tr></tr>
+<tr><td><input type="radio" name="age" required>65 or over</td><td></td><td></td></tr><tr></tr>
+<tr><td>What is your favourite color:<font color="red">*</font></td><td></td><td></td>
+</tr><tr></tr>
+<tr><td>
+<select>
+<option selected>==select==</option>
+<option>Red</option>
+<option>Blue</option>
+<option>White</option>
+<option>Black</option>
+<option>Green</option>
+<option>Purple</option>
+<option>Orange</option>
+<option>Pink</option>
+</select></td><td></td><td></td></tr><tr></tr>
+</table>
+<div class="vr_ln"></div>
+<table align="right" id="table2">
+<tr><td colspan="6">What season you like the best?<font color="red">*</font></td></tr><tr></tr>
+<tr><td><input type="checkbox" name="season">Spring</td></tr><tr></tr>
+<tr><td><input type="checkbox" name="season">Summer</td></tr><tr></tr>
+<tr><td><input type="checkbox" name="season">Autumn</td></tr><tr></tr>
+<tr><td><input type="checkbox" name="season">Winter</td></tr><tr></tr>
+<tr><td colspan="6">How much do you agree with the following statements?</td></tr><tr></tr>
+<tr><td></td><td>Strongly<br>agree</td><td></td><td>Agree</td><td></td><td>Neutral</td><td></td><td>Disagree</td><td></td><td>Stongly<br>disagree</td><td></td></tr><tr></tr>
+<tr><td>First Statement<font color="red">*</font></td><td><input type="radio" name="first"></td><td></td><td><input type="radio" name="first"></td><td></td><td><input type="radio" name="first"></td><td></td><td><input type="radio" name="first"></td><td></td><td><input type="radio" name="first"></td></td></tr><tr></tr>
+<tr><td>Second Statement<font color="red">*</font></td><td><input type="radio" name="second"></td><td></td><td><input type="radio" name="second"></td><td></td><td><input type="radio" name="second"></td><td></td><td><input type="radio" name="second"></td><td></td><td><input type="radio" name="second"></td></td></tr><tr></tr>
+<tr><td>Third Statement<font color="red">*</font></td><td><input type="radio" name="third"></td><td></td><td><input type="radio" name="third"></td><td></td><td><input type="radio" name="third"></td><td></td><td><input type="radio" name="third"></td><td></td><td><input type="radio" name="third"></td></td></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr><td><input type="Submit" value="Send" id="submit_button"></td></tr>
+</table>
+</form>
+</body>
+</html>

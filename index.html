@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+<title>
+Resource Management: Report filter
+</title>
+<style>
+	table{position: relative; top: 50px;}
+</style>
+</head>
+<body>
+<center>
+<h1>Resource Management: Report filter</h1>
+<form>
+<table>
+<tr><td>Select Server: </td><td></td>
+<td>
+<select>
+<option selected>==select==</option>
+<option>Asia</option>
+<option>Europe</option>
+<option>North America</option>
+<option>South America</option>
+<option>Africa</option>
+<option>Antartica</option>
+<option>Australia</option>
+</select>
+</td>
+</tr>
+<tr></tr>
+<tr><td>Visualise data: </td><td></td><td><input type="checkbox"></td></tr>
+<tr></tr>
+<tr><td>Report format: </td><td></td>
+<td>
+<select>
+<option selected>==select==</option>
+<option>HTML</option>
+<option>PDF</option>
+<option>WORD</option>
+<option>EXCEL</option>
+<option>TEXT FILE</option>
+</select>
+</td>
+</tr>
+<tr></tr>
+<tr><td>Report peroid: </td><td></td><td><input type="radio" name="peroid" value="Today">Today</td></tr>
+<tr><td></td><td></td><td><input type="radio" name="peroid" value="Yesterday" required>Yesterday</td></tr>
+<tr><td></td><td></td><td><input type="radio" name="peroid" value="Last week">Last week</td></tr>
+<tr><td></td><td></td><td><input type="radio" name="peroid" value="Last month">Last month</td></tr>
+<tr><td></td><td></td><td><input type="radio" name="peroid" value="Last 3 months">Last 3 months</td></tr>
+<tr><td></td><td></td><td><input type="radio" name="peroid" value="Last 6 months">Last 6 months</td></tr>
+<tr><td></td><td></td><td><input type="radio" name="peroid" value="Last 12 months">Last 12 months</td></tr>
+<tr><td></td><td></td><td><input type="radio" name="peroid" value="Date range">Date range</td></tr>
+<tr><td>Start date: </td><td></td><td><input type="date" name="start_date"></td></tr>
+<tr><td>End date: </td><td></td><td><input type="date" name="end_date"></td></tr>
+<tr><td>Top number: </td><td></td><td><input type="number" min="1" name="top_number"></td></tr>
+<tr><td>Location of names file</td><td></td><td><input type="file" required></td></tr>
+<tr><td><input type="submit" value="View report" name="submit"></td></tr>
+</table>
+</form>
+</center>
+</body>
+</html>
